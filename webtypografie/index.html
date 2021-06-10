@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Typografie</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <style>
+        
+        /*
+          RESET
+        */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        h1, h2, h3 {
+            font-size: 1rem;
+            font-weight: normal;
+        }
+        
+        /*
+          TYPOGRAPHY
+        */
+        
+        body {
+            font-family: 'Inter', 'Helvetica', Arial, sans-serif;
+        }
+
+
+        .bold {
+            font-weight: bold;
+        }
+        
+        
+        .italic {
+            font-style: italic;
+        }
+        
+        
+        h1, h2 {
+            font-size: 2.5em;
+        }
+        
+        h1 {
+            font-weight: bold;
+            font-family: 'Lobster', 'Inter', 'Helvetica', Arial, sans-serif;
+            font-size: 3.5em;
+        }
+        
+        h3 {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        
+        
+        /*
+          LAYOUT
+        */
+        
+        section {
+            padding-top: 10vh;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        section, article {
+            width: 70vw;
+            margin: 0 auto;
+        }
+        
+
+        header, footer {
+            padding: 1em 15vw;
+        }
+        
+        
+        article {
+            padding: 2em 0;
+        }
+        
+        p,
+        h2 {
+            padding-bottom: 1em;
+        }
+
+        div {
+            width: 49%;
+            height: 35vw;
+            background: #000;
+            margin: 1px;
+            padding: 10px;
+        }
+
+
+        /*
+          COLOR
+        */
+        
+        h1 {
+            color: hsl(200,13%,42%);
+        }
+        
+        h2 {
+            color: hsl(200,13%,34%);
+        }
+        
+        .color01 {
+            background: rgb(255, 130, 0);
+        }
+
+        .color02 {
+            background: hsl(30, 100%, 50%);
+        }
+
+        .color03 {
+            background: #ff8000;
+        }
+
+        .color04 {
+            background: #804000;
+        }
+        
+        
+        header {background: hsl (200, 128%, 0%)
+        }
+        
+        
+    </style>
+
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Seitentitel H1</h1>
+    </header>
+
+    <section>
+        <div class="color01"><h3>Square 1</h3></div>
+
+        <div class="color02"><h3>Square 2</h3></div>
+
+        <div class="color03"><h3>Square 3</h3></div>
+
+        <div class="color04"><h3>Square 4</h3></div>
+    
+    
+    </section>
+    
+    <article>
+        
+        <h2>Überschrift H2</h2>
+        
+        <p>
+            Dies ist ein <span class="bold italic">Typoblindtext</span>. An ihm kann man sehen, ob alle <strong>Buchstaben</strong> da sind und wie sie aussehen. Manchmal <strong><em>benutzt man Worte</em></strong> wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. 
+        </p>
+        <p class="italic">
+            Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum.
+        </p>
+    </article>
+    
+    <footer>
+        &copy;Sina Firnkes, 2021
+    </footer>
+    
+
+</body></html>
